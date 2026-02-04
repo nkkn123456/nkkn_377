@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NKKN</title>
+  <style>
+    *{margin: 5;padding: 0px;box-sizing: border-box;}
+    .m1 li:hover .m2{
+      display: block;
+      position: absolute;
+    }
+    .m1>li>.m2>li:hover{
+      background-color: dimgrey;
+
+    }
+    
+    .m1>li{
+      padding: 10px ;
+      list-style: none;
+      position: relative;
+      text-align: center;
+     width: 10%;
+    }
+    .m1{
+      width: 100%;
+      
+    }
+    .m2{
+      top: 33px;
+      display: none;
+    
+      padding: 5px 0px;
+      width: 100%;
+    }
+    .m2>li{
+      padding: 10px;
+      background-color:darkkhaki;
+      list-style: none;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      
+    }
+    .Noidung{
+      display: flex;
+      width: 100%;
+      background-color:chocolate;
+    }
+    .list{
+      width: 25%;
+      padding: 5px 40px;
+      border: 1px solid chartreuse;
+    }
+    .list>ul>li{
+      padding: 7px 20px;
+      list-style: none;
+    }
+    .list>ul>li>a{
+      font-size: large;
+    }
+    .list>ul>li:hover{
+      background-color: cadetblue;
+    }
+    .hinh1{
+      width: 20%;  
+      border: 1px solid chartreuse;
+      padding: 5px;
+    }
+    p{
+      text-align: center;
+      color: white;
+      font-size: larger;
+    }
+    img{
+      width: 100%;
+      height: 70%;
+    }
+    h2{
+      color: white;
+      text-align: center;
+    }
+    .head{
+      color: red;
+      display: flex;
+      width: 100%;
+     border: 2px solid salmon;
+    }
+    .footer{
+      background-color: burlywood;
+      padding: 5px;
+    }
+    h4{
+      text-align: center;
+      font-size: x-large;
+    }
+    .logo1>img{
+      width: 100%;
+      height: 80%;
+      
+    }
+    .logo1{
+      width: 30%;
+      padding: 10px 60px;
+      
+    }
+    .gt{
+      width: 80%;
+    }
+  </style>
+  <link rel="stylesheet" href="loadid.css">
+  <link rel="stylesheet" href="loadid.html">
+  <style>
+    @import "loadid.css";
+    @import url(loadid.css);
+  </style>
+</head>
+<body>
+    <div>
+        <div class="head" style="background-color: aquamarine;  text-align: center;">
+          <div class="logo1">
+            <img src="Hinh_Trasua/h11.jpg">
+          </div>
+          <div class="gt">
+            <h1>GIỚI THIỆU NỘI DUNG CHỦ THỂ</h1>
+          </div>
+          <div class="logo1">
+            <img src="Hinh_Trasua/h10.jpg">
+          </div>
+        </div>
+        <div  style="background-color: red; ">
+          <ul  class="m1" style="display: flex; ">
+            <li> 
+              <a href=""> GIỚI THIỆU</a> 
+              <ul class="m2">
+                <li> <a href=""> Mục 1 Mục 1</a> </li>
+                <li> <a href=""> Mục 2 Mục 1</a> </li>
+                <li> <a href=""> Mục 3 Mục 1</a> </li>
+                <li> <a href=""> Mục 4 Mục 1</a> </li>
+              </ul>
+            </li>
+            <li> <a href=""> THÔNG TIN</a>
+              <ul class="m2">
+                <li> <a href=""> Mục 1 Mục 1</a> </li>
+                <li> <a href=""> Mục 2 Mục 1</a> </li>
+                <li> <a href=""> Mục 3 Mục 1</a> </li>
+                <li> <a href=""> Mục 4 Mục 1</a> </li>
+              </ul>
+             </li>
+            <li> <a href=""> HỆ THỐNG</a> 
+              <ul class="m2">
+                <li> <a href=""> Mục 1 Mục 1</a> </li>
+                <li> <a href=""> Mục 2 Mục 1</a> </li>
+                <li> <a href=""> Mục 3 Mục 1</a> </li>
+                <li> <a href=""> Mục 4 Mục 1</a> </li>
+              </ul>
+            </li>
+            <li> <a href=""> LIÊN HỆ</a> 
+              <ul class="m2">
+                <li> <a href=""> Mục 1 Mục 1</a> </li>
+                <li> <a href=""> Mục 2 Mục 1</a> </li>
+                <li> <a href=""> Mục 3 Mục 1</a> </li>
+                <li> <a href=""> Mục 4 Mục 1</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="Noidung">
+            <div class="list">
+              <ul>
+                <h2> CÁC LOẠI TRÀ SỮA</h2>
+                <li><a href="MS_LOP_TEN_LIST.html">Trà sữa loại 1</a></li>
+                <li><a href="loadid.html">Trà sữa loại 2 </a></li>
+                <li><a href="">Trà sữa loại 3 </a></li>
+                <li><a href="">Trà sữa loại 4</a></li>
+                <li><a href="">Trà sữa loại 5</a></li>
+                <li><a href="">Trà sữa loại 6</a></li>
+                <li><a href="">Trà sữa loại 7</a></li>
+                <li><a href="">Trà sữa loại 8</a></li>
+                <li><a href="">Trà sữa loại 10</a></li>
+              </ul>
+            </div>
+            <div class="hinh1" style="w">
+              <img src="Hinh_Trasua/h1.jpg" >
+              <P> TÊN TRÀ SỮA   </P>
+              <p> Giá: 50.000 đ</p>
+            </div>
+            <div class="hinh1">
+              <img src="Hinh_Trasua/h2.jpg" >
+              <P> TÊN TRÀ SỮA   </P>
+              <p> Giá: 70.000 đ</p>
+            </div>
+            <div class="hinh1">
+              <img src="Hinh_Trasua/h3.jpg" >
+              <P> TÊN TRÀ SỮA   </P>
+              <p> Giá: 60.000 đ</p>
+            </div>
+            <div class="hinh1">
+              <img src="Hinh_Trasua/h4.jpg" >
+              <P> TÊN TRÀ SỮA   </P>
+              <p> Giá: 60.000 đ</p>
+            </div>
+        </div>
+      <div class="footer">
+          <h2 style="color: red;">Thông tin liên hệ đặt mua trà sữa</h2>
+          <p style="color: red;"> Điện thoại: 0901234567</p>
+      </div>
+    </div>
+  
+</body>
+</html>
